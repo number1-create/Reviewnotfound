@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Not Found - Vanguard Books</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0a1628;
+            color: #e8edf3;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 560px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #4a9eff;
+            margin-bottom: 40px;
+        }
+
+        .icon-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(255, 152, 56, 0.12);
+            border: 2px solid rgba(255, 152, 56, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 28px;
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #8899b0;
+            margin-bottom: 36px;
+            line-height: 1.6;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 32px 28px;
+            margin-bottom: 24px;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        .step:last-child {
+            margin-bottom: 0;
+        }
+
+        .step-number {
+            width: 32px;
+            height: 32px;
+            min-width: 32px;
+            border-radius: 50%;
+            background: #4a9eff;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            margin-top: 2px;
+        }
+
+        .step-text h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .step-text p {
+            font-size: 14px;
+            color: #8899b0;
+            line-height: 1.5;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9838, #ff7a1a);
+            color: #fff;
+            font-size: 17px;
+            font-weight: 700;
+            padding: 16px 48px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(255, 122, 26, 0.3);
+            letter-spacing: 0.3px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 28px rgba(255, 122, 26, 0.45);
+        }
+
+        .bonus-note {
+            margin-top: 32px;
+            padding: 20px 24px;
+            background: rgba(74, 158, 255, 0.08);
+            border: 1px solid rgba(74, 158, 255, 0.15);
+            border-radius: 12px;
+            display: flex;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .bonus-note .note-icon {
+            font-size: 22px;
+            margin-right: 14px;
+            min-width: 24px;
+        }
+
+        .bonus-note p {
+            font-size: 14px;
+            color: #a8b8cc;
+            line-height: 1.6;
+        }
+
+        .bonus-note strong {
+            color: #4a9eff;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #4a5a70;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Vanguard Books</div>
+
+        <div class="icon-circle">
+            <span>&#128270;</span>
+        </div>
+
+        <h1>We couldn't find your review yet</h1>
+        <p class="subtitle">
+            It looks like your Amazon review hasn't been posted yet.
+            No worries — just follow the steps below to complete the process.
+        </p>
+
+        <div class="card">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                    <h3>Leave your honest review</h3>
+                    <p>Click the button below to go to the book's Amazon page and submit your review.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                    <h3>Come back & confirm</h3>
+                    <p>After posting, reply to our email with your Amazon reviewer name so we can verify it.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                    <h3>Receive your bonuses</h3>
+                    <p>Once verified, your bonus materials will be sent to your email within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://www.amazon.com/review/create-review/ref=cm_cr_othr_d_wr_but_top?ie=UTF8&channel=glance-detail&asin=B0DNZJLQJL" class="cta-button">
+            Leave Your Review
+        </a>
+
+        <div class="bonus-note">
+            <span class="note-icon">&#9993;</span>
+            <p>
+                <strong>Already submitted your review?</strong><br>
+                Check your inbox (and spam folder) — your bonuses are on the way.
+                If you don't see anything within 24 hours, reply to our last email and we'll sort it out.
+            </p>
+        </div>
+
+        <p class="footer">&copy; 2026 Vanguard Books. All rights reserved.</p>
+    </div>
+</body>
+</html>
